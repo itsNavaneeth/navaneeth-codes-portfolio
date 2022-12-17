@@ -5,14 +5,14 @@ const Page = () => (
   <div className='bg-primary-black overflow-hidden'>
     <Navbar />
     <Hero />
-    <About />
+    {/* <About />
     <Explore />
     <GetStarted />
     <WhatsNew />
     <World />
     <Insights />
     <Feedback />
-    <Footer />
+    <Footer /> */}
   </div>
 );
 
