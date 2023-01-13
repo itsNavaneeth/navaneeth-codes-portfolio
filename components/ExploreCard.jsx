@@ -12,7 +12,7 @@ const ExploreCard = ({ id, imgUrl, title, description, tech_stack, live_demo, gi
       } flex items-center justify-center min-w-[170px] h-[500px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
-    <img
+    <Image
       src={imgUrl}
       alt="planet-04"
       className="absolute w-full h-full object-cover rounded-[24px]"
@@ -41,7 +41,7 @@ const ExploreCard = ({ id, imgUrl, title, description, tech_stack, live_demo, gi
             href={github} target="_blank" rel="noreferrer"
           >
 
-            <img
+            <Image
               src="/github.svg"
               alt="github"
               className="w-1/2 h-1/2 object-contain"
