@@ -8,20 +8,21 @@ import { navVariants } from '../utils/motion';
 const Navbar = () => (
   <motion.nav
     variants={navVariants}
-    initial='hidden'
-    whileInView='show'
-    className={`${styles.xPaddings} py-3 relative`}
+    initial="hidden"
+    whileInView="show"
+    className={`${styles.xPaddings} py-5 relative`}
   >
-    {/* <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`} >
+    <div className='absolute w-[50%] inset-0 gradient-01' />
+
+    <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`} >
       <img src="/search.svg" alt="search" className="w-[24px] h-[24px] object-contain" />
-      <h2 className="font-extrabold text-[24px] leading-[30px] text-white" >NAVANEETH</h2>
+      <h2 className="font-semibold text-[24px] leading-[30px] text-white" >NAVANEETH</h2>
       <img
         src="/menu.svg"
         alt="menu"
         className="w-[24px] h-[24px] object-contain"
       />
     </div>
-    <div className='absolute w-[50%] inset-0 gradient-01' /> */}
 
     {/* <nav className="sticky top-0 z-10 bg-opacity-0">
       <div className="max-w-5xl mx-auto px-4">
@@ -35,13 +36,12 @@ const Navbar = () => (
           </div>
         </div>
       </div>
-    </nav>
-    <div className='absolute w-[50%] inset-0 gradient-01' /> */}
+    </nav> */}
 
 
 
 
-    <nav className="px-2 sm:px-4 rounded bg-transparent">
+    {/* <nav className="px-2 sm:px-4 rounded bg-transparent">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <h2 className="font-extrabold text-[24px] leading-[30px] text-white" >NAVANEETH</h2>
         <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -68,8 +68,7 @@ const Navbar = () => (
           </ul>
         </div>
       </div>
-    </nav>
-    <div className='absolute w-[50%] inset-0 gradient-01' />
+    </nav> */}
 
 
   </motion.nav>
